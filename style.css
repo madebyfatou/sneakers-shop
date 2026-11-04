@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body{
@@ -57,7 +58,7 @@ nav ul a:hover {
   color: #8e44ad;
 }
 
-.droite {
+.chien {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -77,14 +78,10 @@ nav ul a:hover {
   border: 2px solid black
 }
 
-div img{
-    display: flex;
-  align-items: center;
-  gap: 15px;
-}
 
 main {
   padding: 60px 40px;
+  background-color: rgb(219, 207, 207);
 }
  
 h1 {
@@ -95,7 +92,7 @@ h1 {
 }
 
 footer {
-  background-color: #fff;
+  background-color: rgb(219, 207, 207);
   text-align: center;
   padding: 20px;
   font-size: 0.9rem;
@@ -156,6 +153,13 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#button{
+  background-color: #8005F2;
+  color: #500f8d;
+
 }
  
 button:hover {
