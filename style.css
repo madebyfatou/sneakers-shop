@@ -125,6 +125,7 @@ article > div {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
  
 .titre h3 {
